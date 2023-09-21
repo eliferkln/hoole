@@ -17,8 +17,7 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      {" "}
-      <ToastContainer />{" "}
+      <ToastContainer />
       <div className="max-w-[1440px] mx-auto py-12 px-4 grid lg:grid-cols-2 gap-8 text-gray-300 justify-between border-t-2 border-[#dadada63]">
         <div className="max-w-[360px] ">
           <img alt="" src="/assets/HOOLE.png" className="h-20 cursor-pointer" />

@@ -1,7 +1,15 @@
 import React, { useState } from "react";
-
+import { useApi } from "../context/ApiContext";
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const { popularMovies, setSearchData }: any = useApi();
+
+  const handleSearch = () => {
+    const results = popularMovies.filter((item: any) =>
+      item.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchData(results);
+  };
 
   return (
     <div className="flex gap-6 w-full">
@@ -12,7 +20,10 @@ const Search = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <button className="bg-[black] px-6 py-3 text-white rounded-tr rounded-md  disabled:bg-gray-400">
+      <button
+        className="bg-[black] px-6 py-3 text-white rounded-tr rounded-md  disabled:bg-gray-400"
+        onClick={handleSearch}
+      >
         Search
       </button>
     </div>
