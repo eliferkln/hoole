@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  BiLogoLinkedin,
-  BiLogoYoutube,
-  BiLogoInstagram,
-  BiLogoTwitter,
-} from "react-icons/bi";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -25,20 +19,6 @@ const Footer: React.FC = () => {
             Watch movies the way they were meant to be seen - in stunning high
             definition, with crisp sound, and uninterrupted streaming.
           </p>
-          <div className="flex justify-between md:w-[50%] my-6">
-            <a href="/">
-              <BiLogoLinkedin size={30} color="black" />
-            </a>
-            <a href="/">
-              <BiLogoInstagram size={30} color="black" />
-            </a>
-            <a href="/">
-              <BiLogoTwitter size={30} color="black" />
-            </a>
-            <a href="/">
-              <BiLogoYoutube size={30} color="black" />
-            </a>
-          </div>
         </div>
 
         <div className="lg:col-span-1 flex flex-col items-center  mt-6 ">

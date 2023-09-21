@@ -3,8 +3,7 @@ import { useApi } from "../context/ApiContext";
 
 const Categories = () => {
   const { genres }: any = useApi();
-  console.log("geness", genres);
-  const imguri = "https://image.tmdb.org/t/p/w500/";
+
   return (
     <div className="w-full py-[2rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-5 gap-4 ">

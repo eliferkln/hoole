@@ -4,7 +4,6 @@ import { AiTwotoneStar } from "react-icons/ai";
 
 const Cards = () => {
   const { searchData }: any = useApi();
-
   const imguri = "https://image.tmdb.org/t/p/w500/";
   return (
     <div className="w-full py-[4rem] px-4 bg-white">
