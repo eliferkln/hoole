@@ -5,7 +5,7 @@ const Categories = () => {
   const { genres }: any = useApi();
 
   return (
-    <div className="w-full py-[2rem] px-4 bg-white">
+    <div className="w-full py-[4rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-5 gap-4 ">
         {genres.map((movie: any) => (
           <div

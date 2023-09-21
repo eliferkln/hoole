@@ -2,7 +2,7 @@ import React from "react";
 
 const CatgoriesDesc = () => {
   return (
-    <div className="w-full bg-white py-16  ">
+    <div className="w-full bg-[#c2c2c257] py-16  ">
       <div className="max-w-[1440px] mx-auto grid md:grid-cols-2">
         <img
           className="w-[400px] h-[300px] mx-auto my-4"
