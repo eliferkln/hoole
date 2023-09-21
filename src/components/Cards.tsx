@@ -7,8 +7,8 @@ const Cards = () => {
 
   const imguri = "https://image.tmdb.org/t/p/w500/";
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+    <div className="w-full py-[4rem] px-4 bg-white">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-4 gap-8">
         {searchData.map((movie: any) => (
           <div
             key={movie.id}
