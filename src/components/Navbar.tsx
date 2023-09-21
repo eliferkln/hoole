@@ -37,9 +37,9 @@ const Navbar = () => {
           src="/assets/HOOLE.png"
           className="w-36 my-4 mx-auto cursor-pointer"
         />
-        <li className="p-4 border-b border-gray-600 cursor-pointer">
+        {/* <li className="p-4 border-b border-gray-600 cursor-pointer">
           <Search />
-        </li>
+        </li> */}
       </ul>
     </div>
   );
