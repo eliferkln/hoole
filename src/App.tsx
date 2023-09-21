@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import { ApiProvider } from "./context/ApiContext";
 import Cards from "./components/Cards";
 import Categories from "./components/Categories";
+import CatgoriesDesc from "./components/CatgoriesDesc";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <ApiProvider>
         <Navbar />
         <Cards />
+        <CatgoriesDesc />
         <Categories />
-
         <Footer />
       </ApiProvider>
     </div>
