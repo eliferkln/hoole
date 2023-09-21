@@ -6,6 +6,7 @@ import Cards from "./components/Cards";
 import Categories from "./components/Categories";
 import CatgoriesDesc from "./components/CatgoriesDesc";
 import Hero from "./components/Hero";
+import HeadlineCards from "./components/HeadlineCards";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ApiProvider>
         <Navbar />
         <Hero />
+        <HeadlineCards />
         <Cards />
         <CatgoriesDesc />
         <Categories />
