@@ -5,12 +5,14 @@ import { ApiProvider } from "./context/ApiContext";
 import Cards from "./components/Cards";
 import Categories from "./components/Categories";
 import CatgoriesDesc from "./components/CatgoriesDesc";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
       <ApiProvider>
         <Navbar />
+        <Hero />
         <Cards />
         <CatgoriesDesc />
         <Categories />
